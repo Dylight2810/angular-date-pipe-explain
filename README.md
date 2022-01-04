@@ -36,9 +36,9 @@ Read more at: https://angular.io/api/common/DatePipe#pre-defined-format-options
 
 | Format | Description | Example result |
 | :-----: | --- | --- |
-| `yyyy` - `y`(not `Y`) | Format year, each `y` character is present for 1 digit in the year number | EX: `yyyy - 2022`, `yyy - 022`, `yy - 22`
-| `MMMM` - `M`(not `m`) | Format month | EX: `MMMM - tháng 9`, `MMM - thg 9`, `MM - 09`, `M - 9`
-| `LLLL` - `L`(not `l`) | Format month like M but in some locale case first Month character will be Uppercase | EX: `LLLL - Tháng 9`, `LLL - Thg 9`, `LL - 09`
+| `yyyy` - `y`not `Y` | Format year, each `y` character is present for 1 digit in the year number | EX: `yyyy - 2022`, `yyy - 022`, `yy - 22`
+| `MMMM` - `M`not `m` | Format month | EX: `MMMM - tháng 9`, `MMM - thg 9`, `MM - 09`, `M - 9`
+| `LLLL` - `L`not `l` | Format month like M but in some locale case first Month character will be Uppercase | EX: `LLLL - Tháng 9`, `LLL - Thg 9`, `LL - 09`
 | `h` | Format hour from 0h - 12h, `hh` auto add zero padded after hour | EX: `h - 9, hh - 09`, `h - 12, hh - 12`
 | `H` | Format hour from 0h - 23h, `HH` auto add zero padded after hour | EX: `h - 9, hh - 09`, `h - 22, hh - 22`
 | `m` | Format minute, `mm` auto add zero padded after hour | EX: `m - 2, mm - 02`, `m - 12, mm - 12`
