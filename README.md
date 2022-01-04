@@ -24,6 +24,7 @@ export class AppComponent  {
 ```
 ## 2. Explain some pre-defined format options
 > Angular Date Pipe provides some defined format for developer
+
 | Format | Description | Example result |
 | --- | --- | --- |
 | `'short'` | 'M/d/yy, h:mm a' | 6/15/15, 9:03 AM
@@ -32,6 +33,7 @@ Read more at: https://angular.io/api/common/DatePipe#pre-defined-format-options
 
 ## 3. Using Date Pipe with custom format options
 > I just explain some config that I prefer to use in bellow
+
 | Format | Description | Example result |
 | --- | --- | --- |
 | `yyyy` - `y`(not `Y`) | Format year, each `y` character is present for 1 digit in the year number | EX: `yyyy - 2022`, `yyy - 022`, `yy - 22`
@@ -64,3 +66,5 @@ registerLocaleData(localeVi);
 })
 export class AppModule {}
 ```
+
+## Document for Create Beautiful and Usage Readme file: https://docs.github.com/en/github/writing-on-github
