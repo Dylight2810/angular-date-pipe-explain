@@ -35,7 +35,7 @@ Read more at: https://angular.io/api/common/DatePipe#pre-defined-format-options
 > I just explain some config that I prefer to use in bellow
 
 | Format | Description | Example result |
-| --- | --- | --- |
+| :-----: | --- | --- |
 | `yyyy` - `y`(not `Y`) | Format year, each `y` character is present for 1 digit in the year number | EX: `yyyy - 2022`, `yyy - 022`, `yy - 22`
 | `MMMM` - `M`(not `m`) | Format month | EX: `MMMM - tháng 9`, `MMM - thg 9`, `MM - 09`, `M - 9`
 | `LLLL` - `L`(not `l`) | Format month like M but in some locale case first Month character will be Uppercase | EX: `LLLL - Tháng 9`, `LLL - Thg 9`, `LL - 09`
@@ -67,4 +67,7 @@ registerLocaleData(localeVi);
 export class AppModule {}
 ```
 
-## Document for Create Beautiful and Usage Readme file: https://docs.github.com/en/github/writing-on-github
+### 👀 Document for Create Beautiful and Usage Readme file: 
+> https://docs.github.com/en/github/writing-on-github
+
+
