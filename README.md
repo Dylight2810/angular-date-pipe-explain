@@ -15,7 +15,10 @@ import { Component } from '@angular/core';
 
 @Component({
   selector: 'my-app',
-  template: '<div>{{ myDate | date: 'h:mma dd, MMMM, yyyy':'GTM' }}</div>',
+  template: `
+    <div>{{ myDate | date: 'h:mma dd, MMMM, yyyy':'GTM' }}</div>
+    <div>{{ myDate | date: 'h:mm - dd, MMMM, yyyy':'GTM' }}</div>
+  `,
   styleUrls: [ './app.component.css' ]
 })
 export class AppComponent  {
